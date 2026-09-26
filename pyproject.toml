@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hls-converter-cli"
+version = "0.9.0"
+description = "General-purpose HLS media converter built on FFmpeg."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "devdasher" }]
+keywords = ["hls", "ffmpeg", "video", "streaming", "m3u8", "converter"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Multimedia :: Video :: Conversion",
+]
+
+[project.urls]
+Homepage = "https://github.com/devdasher/hls-converter-cli"
+Source   = "https://github.com/devdasher/hls-converter-cli"
+Issues   = "https://github.com/devdasher/hls-converter-cli/issues"
+
+[project.scripts]
+hls-converter = "hls_converter_cli:main"
+
+[tool.setuptools]
+py-modules = ["hls_converter_cli"]
