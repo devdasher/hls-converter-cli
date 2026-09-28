@@ -20,7 +20,7 @@ own scripts and applications.
 
 ---
 
-## 🔗 Related project — Desktop GUI
+## 🔗 Related project — [Desktop GUI](https://github.com/devdasher/hls-converter-gui)
 
 Prefer a graphical interface? A companion desktop app is available:
 
